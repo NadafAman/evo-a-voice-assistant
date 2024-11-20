@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "examples": ["hello", "hi", "good morning", "good afternoon", "what's up", "hey"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "time",
+      "examples": ["what time is it", "tell me the time", "current time", "give me the time", "what's the time"],
+      "responses": ["Sure! Let me check the time for you.", "Here's the current time."]
+    },
+    {
+      "tag": "search_wikipedia",
+      "examples": ["search on wikipedia", "find on wikipedia", "look up on wikipedia", "Wikipedia search"],
+      "action": "search_wikipedia"
+    },
+    {
+      "tag": "search_google",
+      "examples": ["search google for", "look up on google", "google search"],
+      "action": "search_google"
+    },
+    {
+      "tag": "search_youtube",
+      "examples": ["search youtube for", "look up on youtube", "youtube search"],
+      "action": "search_youtube"
+    },
+    {
+      "tag": "timer",
+      "examples": ["set a timer", "start a timer", "set timer for", "timer"],
+      "action": "set_timer"
+    },
+    {
+      "tag": "goodbye",
+      "examples": ["goodbye", "see you later", "bye"],
+      "responses": ["Goodbye!", "See you next time!"],
+      "action": "stop_Evio"
+    },
+    {
+      "tag": "sleep",
+      "examples": ["go to sleep", "sleep mode", "sleep"],
+      "responses": ["Going to sleep. Call me when you need me."],
+      "action": "sleep_Evio"
+    }
+  ]
+}

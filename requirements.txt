@@ -1,0 +1,7 @@
+speechrecognition
+gtts
+pygame
+wikipedia-api
+datetime
+pyaudio
+uuid
